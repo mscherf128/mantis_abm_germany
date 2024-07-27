@@ -1,0 +1,17 @@
+README - CLC2018
+------------------------------------
+
+Version 20 (final delivery):
+
+Initial version
+
+It covers 39 countries. Separate databases FR DOMs included.Faroe Islands added
+For details on coverage please see CLC_country_coverage_v20.pdf
+
+Note (list of known errors): Some redundant lines between neighbouring polygons with the same code are still present in database, but only as result of persisting ‘adaptive tilling’ procedure limitation of ArcGIS.
+Polygons under MMU 25 Ha can be present along national borders and along 'adaptive tilling' tiles boundaries. Polygons (slivers) under 0.1 Ha can be present only along 'adaptive tilling' tiles boundaries.
+
+
+Prepared by
+GISAT 05/2019
+For more information contact tomas.soukup@gisat.cz, miroslav.kopecky@gisat.cz

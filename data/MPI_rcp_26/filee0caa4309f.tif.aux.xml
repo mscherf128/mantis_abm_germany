@@ -1,0 +1,871 @@
+<PAMDataset>
+  <PAMRasterBand band="1">
+    <Description>DEU_elv_msk</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="2">
+    <Description>LABEL3</Description>
+    <GDALRasterAttributeTable tableType="thematic">
+      <FieldDefn index="0">
+        <Name>Value</Name>
+        <Type>0</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="1">
+        <Name>LABEL3</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="2">
+        <Name>Red</Name>
+        <Type>1</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="3">
+        <Name>Green</Name>
+        <Type>1</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="4">
+        <Name>Blue</Name>
+        <Type>1</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <FieldDefn index="5">
+        <Name>CODE_18</Name>
+        <Type>2</Type>
+        <Usage>0</Usage>
+      </FieldDefn>
+      <Row index="0">
+        <F>1</F>
+        <F>Continuous urban fabric</F>
+        <F>0.901960784314</F>
+        <F>0</F>
+        <F>0.301960784314</F>
+        <F>111</F>
+      </Row>
+      <Row index="1">
+        <F>2</F>
+        <F>Discontinuous urban fabric</F>
+        <F>1</F>
+        <F>0</F>
+        <F>0</F>
+        <F>112</F>
+      </Row>
+      <Row index="2">
+        <F>3</F>
+        <F>Industrial or commercial units</F>
+        <F>0.8</F>
+        <F>0.301960784314</F>
+        <F>0.949019607843</F>
+        <F>121</F>
+      </Row>
+      <Row index="3">
+        <F>4</F>
+        <F>Road and rail networks and associated land</F>
+        <F>0.8</F>
+        <F>0</F>
+        <F>0</F>
+        <F>122</F>
+      </Row>
+      <Row index="4">
+        <F>5</F>
+        <F>Port areas</F>
+        <F>0.901960784314</F>
+        <F>0.8</F>
+        <F>0.8</F>
+        <F>123</F>
+      </Row>
+      <Row index="5">
+        <F>6</F>
+        <F>Airports</F>
+        <F>0.901960784314</F>
+        <F>0.8</F>
+        <F>0.901960784314</F>
+        <F>124</F>
+      </Row>
+      <Row index="6">
+        <F>7</F>
+        <F>Mineral extraction sites</F>
+        <F>0.650980392157</F>
+        <F>0</F>
+        <F>0.8</F>
+        <F>131</F>
+      </Row>
+      <Row index="7">
+        <F>8</F>
+        <F>Dump sites</F>
+        <F>0.650980392157</F>
+        <F>0.301960784314</F>
+        <F>0</F>
+        <F>132</F>
+      </Row>
+      <Row index="8">
+        <F>9</F>
+        <F>Construction sites</F>
+        <F>1</F>
+        <F>0.301960784314</F>
+        <F>1</F>
+        <F>133</F>
+      </Row>
+      <Row index="9">
+        <F>10</F>
+        <F>Green urban areas</F>
+        <F>1</F>
+        <F>0.650980392157</F>
+        <F>1</F>
+        <F>141</F>
+      </Row>
+      <Row index="10">
+        <F>11</F>
+        <F>Sport and leisure facilities</F>
+        <F>1</F>
+        <F>0.901960784314</F>
+        <F>1</F>
+        <F>142</F>
+      </Row>
+      <Row index="11">
+        <F>12</F>
+        <F>Non-irrigated arable land</F>
+        <F>1</F>
+        <F>1</F>
+        <F>0.658823529412</F>
+        <F>211</F>
+      </Row>
+      <Row index="12">
+        <F>13</F>
+        <F>Permanently irrigated land</F>
+        <F>1</F>
+        <F>1</F>
+        <F>0</F>
+        <F>212</F>
+      </Row>
+      <Row index="13">
+        <F>14</F>
+        <F>Rice fields</F>
+        <F>0.901960784314</F>
+        <F>0.901960784314</F>
+        <F>0</F>
+        <F>213</F>
+      </Row>
+      <Row index="14">
+        <F>15</F>
+        <F>Vineyards</F>
+        <F>0.901960784314</F>
+        <F>0.501960784314</F>
+        <F>0</F>
+        <F>221</F>
+      </Row>
+      <Row index="15">
+        <F>16</F>
+        <F>Fruit trees and berry plantations</F>
+        <F>0.949019607843</F>
+        <F>0.650980392157</F>
+        <F>0.301960784314</F>
+        <F>222</F>
+      </Row>
+      <Row index="16">
+        <F>17</F>
+        <F>Olive groves</F>
+        <F>0.901960784314</F>
+        <F>0.650980392157</F>
+        <F>0</F>
+        <F>223</F>
+      </Row>
+      <Row index="17">
+        <F>18</F>
+        <F>Pastures</F>
+        <F>0.901960784314</F>
+        <F>0.901960784314</F>
+        <F>0.301960784314</F>
+        <F>231</F>
+      </Row>
+      <Row index="18">
+        <F>19</F>
+        <F>Annual crops associated with permanent crops</F>
+        <F>1</F>
+        <F>0.901960784314</F>
+        <F>0.650980392157</F>
+        <F>241</F>
+      </Row>
+      <Row index="19">
+        <F>20</F>
+        <F>Complex cultivation patterns</F>
+        <F>1</F>
+        <F>0.901960784314</F>
+        <F>0.301960784314</F>
+        <F>242</F>
+      </Row>
+      <Row index="20">
+        <F>21</F>
+        <F>Land principally occupied by agriculture, with significant areas of natural vegetation</F>
+        <F>0.901960784314</F>
+        <F>0.8</F>
+        <F>0.301960784314</F>
+        <F>243</F>
+      </Row>
+      <Row index="21">
+        <F>22</F>
+        <F>Agro-forestry areas</F>
+        <F>0.949019607843</F>
+        <F>0.8</F>
+        <F>0.650980392157</F>
+        <F>244</F>
+      </Row>
+      <Row index="22">
+        <F>23</F>
+        <F>Broad-leaved forest</F>
+        <F>0.501960784314</F>
+        <F>1</F>
+        <F>0</F>
+        <F>311</F>
+      </Row>
+      <Row index="23">
+        <F>24</F>
+        <F>Coniferous forest</F>
+        <F>0</F>
+        <F>0.650980392157</F>
+        <F>0</F>
+        <F>312</F>
+      </Row>
+      <Row index="24">
+        <F>25</F>
+        <F>Mixed forest</F>
+        <F>0.301960784314</F>
+        <F>1</F>
+        <F>0</F>
+        <F>313</F>
+      </Row>
+      <Row index="25">
+        <F>26</F>
+        <F>Natural grasslands</F>
+        <F>0.8</F>
+        <F>0.949019607843</F>
+        <F>0.301960784314</F>
+        <F>321</F>
+      </Row>
+      <Row index="26">
+        <F>27</F>
+        <F>Moors and heathland</F>
+        <F>0.650980392157</F>
+        <F>1</F>
+        <F>0.501960784314</F>
+        <F>322</F>
+      </Row>
+      <Row index="27">
+        <F>28</F>
+        <F>Sclerophyllous vegetation</F>
+        <F>0.650980392157</F>
+        <F>0.901960784314</F>
+        <F>0.301960784314</F>
+        <F>323</F>
+      </Row>
+      <Row index="28">
+        <F>29</F>
+        <F>Transitional woodland-shrub</F>
+        <F>0.650980392157</F>
+        <F>0.949019607843</F>
+        <F>0</F>
+        <F>324</F>
+      </Row>
+      <Row index="29">
+        <F>30</F>
+        <F>Beaches, dunes, sands</F>
+        <F>0.901960784314</F>
+        <F>0.901960784314</F>
+        <F>0.901960784314</F>
+        <F>331</F>
+      </Row>
+      <Row index="30">
+        <F>31</F>
+        <F>Bare rocks</F>
+        <F>0.8</F>
+        <F>0.8</F>
+        <F>0.8</F>
+        <F>332</F>
+      </Row>
+      <Row index="31">
+        <F>32</F>
+        <F>Sparsely vegetated areas</F>
+        <F>0.8</F>
+        <F>1</F>
+        <F>0.8</F>
+        <F>333</F>
+      </Row>
+      <Row index="32">
+        <F>33</F>
+        <F>Burnt areas</F>
+        <F>0</F>
+        <F>0</F>
+        <F>0</F>
+        <F>334</F>
+      </Row>
+      <Row index="33">
+        <F>34</F>
+        <F>Glaciers and perpetual snow</F>
+        <F>0.650980392157</F>
+        <F>0.901960784314</F>
+        <F>0.8</F>
+        <F>335</F>
+      </Row>
+      <Row index="34">
+        <F>35</F>
+        <F>Inland marshes</F>
+        <F>0.650980392157</F>
+        <F>0.650980392157</F>
+        <F>1</F>
+        <F>411</F>
+      </Row>
+      <Row index="35">
+        <F>36</F>
+        <F>Peat bogs</F>
+        <F>0.301960784314</F>
+        <F>0.301960784314</F>
+        <F>1</F>
+        <F>412</F>
+      </Row>
+      <Row index="36">
+        <F>37</F>
+        <F>Salt marshes</F>
+        <F>0.8</F>
+        <F>0.8</F>
+        <F>1</F>
+        <F>421</F>
+      </Row>
+      <Row index="37">
+        <F>38</F>
+        <F>Salines</F>
+        <F>0.901960784314</F>
+        <F>0.901960784314</F>
+        <F>1</F>
+        <F>422</F>
+      </Row>
+      <Row index="38">
+        <F>39</F>
+        <F>Intertidal flats</F>
+        <F>0.650980392157</F>
+        <F>0.650980392157</F>
+        <F>0.901960784314</F>
+        <F>423</F>
+      </Row>
+      <Row index="39">
+        <F>40</F>
+        <F>Water courses</F>
+        <F>0</F>
+        <F>0.8</F>
+        <F>0.949019607843</F>
+        <F>511</F>
+      </Row>
+      <Row index="40">
+        <F>41</F>
+        <F>Water bodies</F>
+        <F>0.501960784314</F>
+        <F>0.949019607843</F>
+        <F>0.901960784314</F>
+        <F>512</F>
+      </Row>
+      <Row index="41">
+        <F>42</F>
+        <F>Coastal lagoons</F>
+        <F>0</F>
+        <F>1</F>
+        <F>0.650980392157</F>
+        <F>521</F>
+      </Row>
+      <Row index="42">
+        <F>43</F>
+        <F>Estuaries</F>
+        <F>0.650980392157</F>
+        <F>1</F>
+        <F>0.901960784314</F>
+        <F>522</F>
+      </Row>
+      <Row index="43">
+        <F>44</F>
+        <F>Sea and ocean</F>
+        <F>0.901960784314</F>
+        <F>0.949019607843</F>
+        <F>1</F>
+        <F>523</F>
+      </Row>
+      <Row index="44">
+        <F>48</F>
+        <F>NODATA</F>
+        <F>1</F>
+        <F>1</F>
+        <F>1</F>
+        <F>999</F>
+      </Row>
+    </GDALRasterAttributeTable>
+  </PAMRasterBand>
+  <PAMRasterBand band="3">
+    <Description>IBU_2018_010m_03035_V1_0</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="4">
+    <Description>time2010-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="5">
+    <Description>time2010-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="6">
+    <Description>time2010-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="7">
+    <Description>time2010-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="8">
+    <Description>time2010-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="9">
+    <Description>time2010-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="10">
+    <Description>time2010-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="11">
+    <Description>time2010-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="12">
+    <Description>time2010-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="13">
+    <Description>time2010-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="14">
+    <Description>time2010-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="15">
+    <Description>time2010-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="16">
+    <Description>time2011-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="17">
+    <Description>time2011-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="18">
+    <Description>time2011-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="19">
+    <Description>time2011-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="20">
+    <Description>time2011-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="21">
+    <Description>time2011-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="22">
+    <Description>time2011-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="23">
+    <Description>time2011-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="24">
+    <Description>time2011-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="25">
+    <Description>time2011-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="26">
+    <Description>time2011-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="27">
+    <Description>time2011-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="28">
+    <Description>time2012-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="29">
+    <Description>time2012-02-15 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="30">
+    <Description>time2012-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="31">
+    <Description>time2012-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="32">
+    <Description>time2012-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="33">
+    <Description>time2012-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="34">
+    <Description>time2012-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="35">
+    <Description>time2012-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="36">
+    <Description>time2012-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="37">
+    <Description>time2012-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="38">
+    <Description>time2012-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="39">
+    <Description>time2012-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="40">
+    <Description>time2013-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="41">
+    <Description>time2013-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="42">
+    <Description>time2013-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="43">
+    <Description>time2013-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="44">
+    <Description>time2013-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="45">
+    <Description>time2013-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="46">
+    <Description>time2013-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="47">
+    <Description>time2013-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="48">
+    <Description>time2013-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="49">
+    <Description>time2013-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="50">
+    <Description>time2013-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="51">
+    <Description>time2013-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="52">
+    <Description>time2014-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="53">
+    <Description>time2014-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="54">
+    <Description>time2014-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="55">
+    <Description>time2014-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="56">
+    <Description>time2014-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="57">
+    <Description>time2014-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="58">
+    <Description>time2014-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="59">
+    <Description>time2014-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="60">
+    <Description>time2014-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="61">
+    <Description>time2014-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="62">
+    <Description>time2014-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="63">
+    <Description>time2014-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="64">
+    <Description>time2015-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="65">
+    <Description>time2015-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="66">
+    <Description>time2015-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="67">
+    <Description>time2015-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="68">
+    <Description>time2015-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="69">
+    <Description>time2015-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="70">
+    <Description>time2015-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="71">
+    <Description>time2015-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="72">
+    <Description>time2015-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="73">
+    <Description>time2015-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="74">
+    <Description>time2015-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="75">
+    <Description>time2015-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="76">
+    <Description>time2016-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="77">
+    <Description>time2016-02-15 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="78">
+    <Description>time2016-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="79">
+    <Description>time2016-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="80">
+    <Description>time2016-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="81">
+    <Description>time2016-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="82">
+    <Description>time2016-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="83">
+    <Description>time2016-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="84">
+    <Description>time2016-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="85">
+    <Description>time2016-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="86">
+    <Description>time2016-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="87">
+    <Description>time2016-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="88">
+    <Description>time2017-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="89">
+    <Description>time2017-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="90">
+    <Description>time2017-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="91">
+    <Description>time2017-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="92">
+    <Description>time2017-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="93">
+    <Description>time2017-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="94">
+    <Description>time2017-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="95">
+    <Description>time2017-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="96">
+    <Description>time2017-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="97">
+    <Description>time2017-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="98">
+    <Description>time2017-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="99">
+    <Description>time2017-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="100">
+    <Description>time2018-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="101">
+    <Description>time2018-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="102">
+    <Description>time2018-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="103">
+    <Description>time2018-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="104">
+    <Description>time2018-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="105">
+    <Description>time2018-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="106">
+    <Description>time2018-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="107">
+    <Description>time2018-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="108">
+    <Description>time2018-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="109">
+    <Description>time2018-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="110">
+    <Description>time2018-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="111">
+    <Description>time2018-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="112">
+    <Description>time2019-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="113">
+    <Description>time2019-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="114">
+    <Description>time2019-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="115">
+    <Description>time2019-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="116">
+    <Description>time2019-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="117">
+    <Description>time2019-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="118">
+    <Description>time2019-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="119">
+    <Description>time2019-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="120">
+    <Description>time2019-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="121">
+    <Description>time2019-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="122">
+    <Description>time2019-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="123">
+    <Description>time2019-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="124">
+    <Description>time2020-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="125">
+    <Description>time2020-02-15 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="126">
+    <Description>time2020-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="127">
+    <Description>time2020-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="128">
+    <Description>time2020-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="129">
+    <Description>time2020-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="130">
+    <Description>time2020-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="131">
+    <Description>time2020-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="132">
+    <Description>time2020-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="133">
+    <Description>time2020-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="134">
+    <Description>time2020-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="135">
+    <Description>time2020-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="136">
+    <Description>time2021-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="137">
+    <Description>time2021-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="138">
+    <Description>time2021-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="139">
+    <Description>time2021-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="140">
+    <Description>time2021-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="141">
+    <Description>time2021-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="142">
+    <Description>time2021-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="143">
+    <Description>time2021-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="144">
+    <Description>time2021-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="145">
+    <Description>time2021-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="146">
+    <Description>time2021-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="147">
+    <Description>time2021-12-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="148">
+    <Description>time2022-01-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="149">
+    <Description>time2022-02-15</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="150">
+    <Description>time2022-03-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="151">
+    <Description>time2022-04-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="152">
+    <Description>time2022-05-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="153">
+    <Description>time2022-06-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="154">
+    <Description>time2022-07-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="155">
+    <Description>time2022-08-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="156">
+    <Description>time2022-09-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="157">
+    <Description>time2022-10-16 12:00:00</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="158">
+    <Description>time2022-11-16</Description>
+  </PAMRasterBand>
+  <PAMRasterBand band="159">
+    <Description>time2022-12-16 12:00:00</Description>
+  </PAMRasterBand>
+</PAMDataset>

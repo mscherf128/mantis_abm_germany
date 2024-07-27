@@ -222,7 +222,7 @@ end
 to export
   if ticks = 1
   [export-view "outputs/mantis_spread_1.png"
-   gis:store-dataset mantis-dataset "outputs/mantis_2023_modeled.shp"]
+   gis:store-dataset mantis-dataset "data/mantis_2023_modeled.shp"]
 ;  ifelse ticks = 1
 ;  [export-view "mantis_spread_1.png"
 ;   gis:store-dataset mantis-dataset "mantis_2023_modeled.shp"]

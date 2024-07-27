@@ -2,9 +2,14 @@
 .Rhistory
 .RData
 .Ruserdata
+.Rdatatmp
 
 CORINE_2018.cpg
 CORINE_2018.dbf
 CORINE_2018.prj
 CORINE_2018.shp
 CORINE_2018.shx
+
+ST_2023.asc
+predictors_LC_elev
+filee0caa4309f.tif
