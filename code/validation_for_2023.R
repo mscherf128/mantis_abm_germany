@@ -4,7 +4,8 @@ getwd()
 
 ################################# Packages #####################################
 # Load the mapview package for interactive mapping
-library(mapview)
+library(sf)
+library(ggplot2)
 
 # Load the 2022 data
 gottan_2022_sf <- readRDS("C:/Users/scher/Documents/2_Semester/Fernerkundung/mantis_abm_germany/data/mantis_2022")
@@ -16,8 +17,6 @@ gottan_2023_obs <- readRDS("C:/Users/scher/Documents/2_Semester/Fernerkundung/ma
 gottan_2023_pred <- st_read("C:/Users/scher/Documents/2_Semester/Fernerkundung/mantis_abm_germany/data/mantis_2023_modeled.shp")
 # Set the coordinate reference system (CRS) for the predicted data
 st_crs(gottan_2023_pred) <- st_crs(32632)
-# Visualize the predicted data
-mapview(gottan_2023_pred)
 
 # Extract the geometry of the predicted data
 gottan_2023_predicted <- gottan_2023_pred["geometry"]
